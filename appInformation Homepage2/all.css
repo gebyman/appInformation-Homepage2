@@ -1,0 +1,172 @@
+.container{
+    background: #f5f5ff;
+    height: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.left-bar {
+    display: flex;
+    padding-top: 200px;
+    padding-left: 200px;
+    position: relative;
+}
+
+.left-bar img{
+    width: 55px;
+    height: 55px;
+    padding-bottom: 20px;
+    padding-top: 19px;
+    
+}
+.btn-word{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 45px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.btn-word a{
+    border: 1px solid #f5f5ff;
+    border-radius: 25%;
+    background: #f5f5ff;
+    text-decoration: none;
+    color:gray;
+    border-width: 10px;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.right-bar{
+    position: relative;
+    top: 60px;
+    left: -80px;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding-right:300px;
+}
+.textInput{
+    margin-top: 18px;
+    padding-right: 30px;
+    
+}
+.textInput input{
+    border-radius:10px;
+    border: none;
+    border-width: 24px;
+    height: 24px;
+}
+.search{
+    display: flex;
+    justify-content: right;
+}
+.searchA{
+    width: 64px;
+    height: 64px;
+}
+.freeApp{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background: #7575af;
+    width: 100px;
+    border-radius: 10px;
+    height: 40px;
+    padding-top: 10px;
+}
+.freeApp p {
+    padding-top: 4px;
+}
+.item{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    padding-left: 8px;
+}
+.bookmark {
+    position:relative;
+    top: 30px;
+    left: 130px;
+    width: 30px;
+    height: 30px;
+}
+.download{
+    position:relative;
+    top: 90px;
+    left: 100px;
+    width: 30px;
+    height: 30px;
+}
+.cleanfloat::after{
+    display: block;
+    clear: both;
+    content:"";
+    visibility: hidden;
+    height: 0;
+}
+  ul li{
+    position: relative;
+    left: 30px;
+    top:100px;
+    list-style:none;
+    float:left;
+    font-size:20px;
+    margin:5px;
+    color:#ccc;
+    cursor:pointer;
+}
+.produce{
+    position: relative;
+    top: 100px;
+    left: 40px;
+}
+.freelist{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.listOne{
+    padding-right: 30px;
+
+}
+
+
+.appName p{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background: #7575af;
+    width: 100px;
+    border-radius: 10px;
+    height: 40px;
+    
+}
+
+.gameApp{
+    padding-top: 150px;
+}
+.gameApp p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background: #7575af;
+    width: 100px;
+    border-radius: 10px;
+    height: 40px;
+    
+}

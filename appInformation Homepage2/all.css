@@ -1,8 +1,7 @@
 .container{
     background: #f5f5ff;
-    height: 1080px;
-    width: 100%;
-    margin: 0 auto;
+    max-width: 100%;
+    min-height: 100%;
 }
 .content{
     display: flex;
@@ -12,9 +11,11 @@
 }
 .left-bar {
     display: flex;
-    padding-top: 200px;
-    padding-left: 200px;
-    position: relative;
+}
+.icon li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .left-bar img{
@@ -29,17 +30,12 @@
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 45px;
-    padding-left: 10px;
-    padding-top: 20px;
+    padding-left: 15%;
+    padding-top: 20%;
 }
 
 .btn-word a{
-    border: 1px solid #f5f5ff;
-    border-radius: 25%;
-    background: #f5f5ff;
-    text-decoration: none;
-    color:gray;
-    border-width: 10px;
+    
 }
 .icon{
     display: flex;
@@ -48,10 +44,6 @@
 
 
 .right-bar{
-    position: relative;
-    top: 60px;
-    left: -80px;
-    padding-top: 90px;
     display: flex;
     flex-direction: column;
     width: 500px;
@@ -95,6 +87,28 @@
     height: 150px;
     padding-left: 8px;
 }
+.facebook{
+    padding-left: 30px;
+    padding-top: 25px;
+    width: 100px;
+    height: 100px;
+}
+.line{
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 140px;
+    height: 140px;
+}
+.name{
+    padding-bottom: 10px;
+}
+.iconStyle{
+    padding-left: 15px;
+    padding-top: 15px;
+    border-radius: 30%;
+    width: 120px;
+    height: 120px;
+}
 .bookmark {
     position:relative;
     top: 30px;
@@ -135,14 +149,25 @@
 .freelist{
     display: flex;
     flex-wrap: wrap;
-    
+    overflow: hidden;
 }
 .listOne{
-    padding-right: 30px;
-
+    margin-bottom: 20%;
+    padding-right: 5%;
+}
+.pb20{
+    padding-bottom: 60px;
 }
 
-
+.icon a{
+    padding-left: 20px;
+    border: 1px solid #f5f5ff;
+    border-radius: 25%;
+    background: #f5f5ff;
+    text-decoration: none;
+    color:gray;
+    border-width: 10px;
+}
 .appName p{
     text-align: center;
     font-size: 24px;
